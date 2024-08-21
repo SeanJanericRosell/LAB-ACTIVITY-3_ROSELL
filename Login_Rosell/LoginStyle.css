@@ -1,0 +1,106 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('FuturisticBackground.jfif');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 370px;
+    height: 400px;
+    background-color:rgba(0, 0, 0, 0.6);
+    border: 1.5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 210, 247, 0.8);
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 210, 247);
+    margin: 30px 0 40px 0;
+}
+
+.wrapper .input-design {
+    height: 40px;
+    margin: 20px;
+}
+
+.input-design input {
+    width: 94%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding-left: 15px;
+    color: white;
+}
+
+.wrapper .input-design:hover{
+    box-shadow: 0 0 10px rgba(0, 210, 247, 0.8);
+    border-radius: 40px;
+}
+.input-design input::placeholder {
+    color: rgb(0, 210, 247);
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 5px 0px 15px 20px;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: white;
+    margin: 5px 18px 15px 20px;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+    color: rgb(0, 210, 247);
+}
+
+.wrapper .button-design {
+    width: 90%;
+    height: 45px;
+    background-color: rgb(0, 210, 247);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin: 10px 20px 10px 20px;
+}
+
+.wrapper .button-design:hover {
+    background-color: white;
+    color: rgb(0, 210, 247);
+    box-shadow: 0 0 10px rgba(0, 210, 247, 0.8);
+    border-radius: 40px;
+}
+
+.wrapper .register-design {
+    font-size: 12px;
+    text-align: center;
+}
+
+.wrapper .register-design a {
+    text-decoration: none;
+}
+
+.wrapper .register-design a:hover {
+    text-decoration: underline;
+    color: rgb(0, 210, 247);
+}
